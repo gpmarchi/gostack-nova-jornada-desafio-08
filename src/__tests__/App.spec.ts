@@ -25,7 +25,7 @@ describe('App', () => {
   beforeEach(async () => {
     // await connection.query('DELETE FROM orders_products');
     // await connection.query('DELETE FROM orders');
-    // await connection.query('DELETE FROM products');
+    await connection.query('DELETE FROM products');
     await connection.query('DELETE FROM customers');
   });
 
